@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { FileText, Home, MessageCircle, Activity, Cross, MapPin } from 'lucide-react';
 // import DocumentAnalyzer from './pages/DocumentAnalyzer';
-import HealthChat from './pages/WildlifeChat';
+import WildlifeChat from './pages/WildlifeChat';
 // import HealthMetrics from './pages/HealthMetrics';
 // import Emergency from './pages/Emergency';
 // import Footer from './components/Footer';
