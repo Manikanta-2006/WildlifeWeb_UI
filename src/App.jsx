@@ -23,7 +23,7 @@ function HomePage() {
           </Link> */}
 
           <Link
-            to="/health-chat"
+            to="/chat"
             className="flex flex-col items-center p-8 bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-all min-h-[200px]"
           >
             <MessageCircle className="w-12 h-12 mb-4 text-blue-500" />
@@ -77,7 +77,7 @@ function App() {
                   Document Analyzer
                 </Link> */}
                 <Link
-                  to="/health-chat"
+                  to="/chat"
                   className="flex items-center text-gray-800 hover:text-blue-500 font-medium text-lg"
                 >
                   <MessageCircle className="w-6 h-6 mr-2" />
@@ -106,7 +106,7 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
 {/*             <Route path="/document-analyzer" element={<DocumentAnalyzer />} /> */}
-            <Route path="/health-chat" element={<WildlifeChat />} />
+            <Route path="/chat" element={<WildlifeChat />} />
 {/*             <Route path="/health-metrics" element={<HealthMetrics />} /> */}
 {/*             <Route path="/emergency" element={<Emergency />} /> */}
           </Routes>
