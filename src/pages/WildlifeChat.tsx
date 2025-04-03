@@ -40,10 +40,10 @@ function HealthChat() {
       <div className="w-full max-w-4xl sm:max-w-3xl md:max-w-2xl lg:max-w-4xl mx-auto">
         <div className="text-center mb-4 sm:mb-6">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-2">
-            Medical AI Chat Assistant
+            Wildlife AI Chat Assistant
           </h1>
           <p className="text-sm sm:text-base md:text-lg text-gray-600">
-            Ask questions about general health and wellness
+            Ask questions about Wildlife 
           </p>
         </div>
 
@@ -95,4 +95,4 @@ function HealthChat() {
   );
 }
 
-export default HealthChat;
+export default WildlifeChat;
