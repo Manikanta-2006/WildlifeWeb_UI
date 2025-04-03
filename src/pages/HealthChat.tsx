@@ -17,7 +17,7 @@ function HealthChat() {
     setLoading(true);
 
     try {
-      const response = await axios.post(`https://medicalai-5zmc.onrender.com/api/chat`, {
+      const response = await axios.post(`https://wildlifeweb.onrender.com/api/chat`, {
         message: userMessage
       });
 
