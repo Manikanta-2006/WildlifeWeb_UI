@@ -37,7 +37,7 @@ function HomePage() {
           >
             <MessageCircle className="w-12 h-12 mb-4 text-blue-500" />
             <h2 className="text-2xl font-semibold text-gray-800 mb-2">Wildlife Chat</h2>
-            <p className="text-gray-600 text-base"> AI-powered Wildlife assistance</p>
+            <p className="text-gray-600 text-base"> AI-powered Wildlife Assistance</p>
           </Link>
 
 {/*           <Link
