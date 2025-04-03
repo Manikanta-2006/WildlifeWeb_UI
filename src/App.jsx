@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { FileText, Home, MessageCircle, Activity, Cross, MapPin } from 'lucide-react';
 // import DocumentAnalyzer from './pages/DocumentAnalyzer';
-import WildlifeChat from './pages/WildlifeChat';
+import Chat from './pages/Chat.tsx';
 // import HealthMetrics from './pages/HealthMetrics';
 // import Emergency from './pages/Emergency';
 // import Footer from './components/Footer';
@@ -81,7 +81,7 @@ function App() {
                   className="flex items-center text-gray-800 hover:text-blue-500 font-medium text-lg"
                 >
                   <MessageCircle className="w-6 h-6 mr-2" />
-                  Wildlife Chat
+                  Chat
                 </Link>
 {/*                 <Link
                   to="/health-metrics"
@@ -106,7 +106,7 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
 {/*             <Route path="/document-analyzer" element={<DocumentAnalyzer />} /> */}
-            <Route path="/chat" element={<WildlifeChat />} />
+            <Route path="/chat" element={<Chat />} />
 {/*             <Route path="/health-metrics" element={<HealthMetrics />} /> */}
 {/*             <Route path="/emergency" element={<Emergency />} /> */}
           </Routes>
