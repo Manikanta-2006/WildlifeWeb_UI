@@ -73,7 +73,7 @@ function HealthChat() {
               type="text"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
-              placeholder="Type your health-related question..."
+              placeholder="Type your wildlife-related question..."
               className="flex-1 px-3 py-2 sm:px-4 sm:py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 w-full sm:w-auto text-sm sm:text-base"
               disabled={loading}
             />
