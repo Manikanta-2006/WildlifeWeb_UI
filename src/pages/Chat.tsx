@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Send, Loader2, MessageCircle } from 'lucide-react';
 import axios from 'axios';
 
-function HealthChat() {
+function WildlifeChat() {
   const [message, setMessage] = useState('');
   const [chat, setChat] = useState<Array<{ type: 'user' | 'ai'; content: string }>>([]);
   const [loading, setLoading] = useState(false);
@@ -95,4 +95,4 @@ function HealthChat() {
   );
 }
 
-export default WildlifeChat;
+export default Chat;
