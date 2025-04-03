@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Send, Loader2, MessageCircle } from 'lucide-react';
 import axios from 'axios';
 
-function WildlifeChat() {
+function HealthChat() {
   const [message, setMessage] = useState('');
   const [chat, setChat] = useState<Array<{ type: 'user' | 'ai'; content: string }>>([]);
   const [loading, setLoading] = useState(false);
@@ -40,10 +40,10 @@ function WildlifeChat() {
       <div className="w-full max-w-4xl sm:max-w-3xl md:max-w-2xl lg:max-w-4xl mx-auto">
         <div className="text-center mb-4 sm:mb-6">
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-2">
-            Wildlife AI Chat Assistant
+            Medical AI Chat Assistant
           </h1>
           <p className="text-sm sm:text-base md:text-lg text-gray-600">
-            Ask questions about Wildlife 
+            Ask questions about general health and wellness
           </p>
         </div>
 
@@ -95,4 +95,4 @@ function WildlifeChat() {
   );
 }
 
-export default Chat;
+export default HealthChat;
