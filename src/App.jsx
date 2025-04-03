@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import { Home, MessageCircle, Search, TreePine } from 'lucide-react';
+import { Home, MessageCircle, Search } from 'lucide-react';
 import WildlifeChat from './pages/WildlifeChat';
 
 function HomePage() {
@@ -8,7 +8,7 @@ function HomePage() {
     <div className="min-h-screen bg-gradient-to-br from-green-50 to-teal-50 p-6">
       <div className="max-w-6xl mx-auto text-center">
         <h1 className="text-4xl font-bold text-gray-900 mb-8">
-          <Tree className="inline-block mr-3 text-emerald-600" />
+          <Search className="inline-block mr-3 text-emerald-600" />
           Wildlife Conservation Assistant
         </h1>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
