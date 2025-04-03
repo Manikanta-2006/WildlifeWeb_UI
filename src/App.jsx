@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import { Home, MessageCircle, Binoculars, PawPrint, Tree } from 'lucide-react';
+import { Home, MessageCircle, Binoculars, PawPrint, TreePine } from 'lucide-react';
 import WildlifeChat from './pages/WildlifeChat';
 
 function HomePage() {
