@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import { Home, MessageCircle, Binoculars, PawPrint, TreePine } from 'lucide-react';
+import { Home, MessageCircle, Search, TreePine } from 'lucide-react';
 import WildlifeChat from './pages/WildlifeChat';
 
 function HomePage() {
@@ -16,7 +16,7 @@ function HomePage() {
             to="/wildlife-chat"
             className="flex flex-col items-center p-8 bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-all min-h-[200px]"
           >
-            <PawPrint className="w-12 h-12 mb-4 text-emerald-500" />
+            <Search className="w-12 h-12 mb-4 text-emerald-500" />
             <h2 className="text-2xl font-semibold text-gray-800 mb-2">Wildlife Chat</h2>
             <p className="text-gray-600 text-base">24/7 AI-powered wildlife conservation support</p>
           </Link>
@@ -25,7 +25,7 @@ function HomePage() {
             to="/species-tracker"
             className="flex flex-col items-center p-8 bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-all min-h-[200px]"
           >
-            <Binoculars className="w-12 h-12 mb-4 text-emerald-500" />
+            <Search className="w-12 h-12 mb-4 text-emerald-500" />
             <h2 className="text-2xl font-semibold text-gray-800 mb-2">Species Tracker</h2>
             <p className="text-gray-600 text-base">Track wildlife sightings and species data</p>
           </Link>
