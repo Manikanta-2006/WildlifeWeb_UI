@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { FileText, Home, MessageCircle, Activity, Cross, MapPin } from 'lucide-react';
 // import DocumentAnalyzer from './pages/DocumentAnalyzer';
-import HealthChat from './pages/HealthChat';
+import HealthChat from './pages/WildlifeChat';
 // import HealthMetrics from './pages/HealthMetrics';
 // import Emergency from './pages/Emergency';
 // import Footer from './components/Footer';
@@ -11,8 +11,8 @@ function HomePage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-50 p-6">
       <div className="max-w-6xl mx-auto text-center">
-        <h1 className="text-4xl font-bold text-gray-900 mb-8">Welcome to Your Health Assistant</h1>
-        <div className="grid gap-8 md:grid-cols-2">
+        <h1 className="text-4xl font-bold text-gray-900 mb-8">Welcome to Your Wildlife Assistant</h1>
+        <div className="grid gap-8 md:grid-cols-1">
 {/*           <Link
             to="/document-analyzer"
             className="flex flex-col items-center p-8 bg-white rounded-2xl shadow-xl hover:shadow-2xl transition-all min-h-[200px]"
@@ -28,7 +28,7 @@ function HomePage() {
           >
             <MessageCircle className="w-12 h-12 mb-4 text-blue-500" />
             <h2 className="text-2xl font-semibold text-gray-800 mb-2">Health Chat</h2>
-            <p className="text-gray-600 text-base">24/7 AI-powered medical assistance</p>
+            <p className="text-gray-600 text-base">24/7 AI-powered Wildlife assistance</p>
           </Link>
 
 {/*           <Link
@@ -106,7 +106,7 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
 {/*             <Route path="/document-analyzer" element={<DocumentAnalyzer />} /> */}
-            <Route path="/health-chat" element={<HealthChat />} />
+            <Route path="/health-chat" element={<WildlifeChat />} />
 {/*             <Route path="/health-metrics" element={<HealthMetrics />} /> */}
 {/*             <Route path="/emergency" element={<Emergency />} /> */}
           </Routes>
